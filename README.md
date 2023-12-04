@@ -20,3 +20,17 @@ yes | sudo apt install python3.10
 # install packages
 pip install -r requirements.txt
 ```
+
+# How to run
+```bash
+# to generate finetune jsonl file
+python data_preprocess_openai.py
+```
+then execute `finetune_openai.ipynb` by the instruction
+remember to create your OpenAI account and get the api key before you run the `finetune_openai.ipynb`
+
+# How to run (our failuir ex)
+```bash
+# PEFT train 10 epochs and print eval results
+python train_lora.py
+```
