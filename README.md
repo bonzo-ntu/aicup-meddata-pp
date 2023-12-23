@@ -28,8 +28,8 @@ python data_preprocess_openai.py
 ```
 then execute `finetune_openai.ipynb` by the instruction
 remember to create your OpenAI account and get the OpenAI api key before you run the `finetune_openai.ipynb`  
-<font color=red>note: since our OpenAI key cannot be revealed in public, the `finetune_openai.ipynb` may not work for you because  
-      the finetuned model is not accessible in a different OpenAI account</font>  
+**note**: since our OpenAI key cannot be revealed in public, the `finetune_openai.ipynb` may not work for you because  
+      the finetuned model is not accessible in a different OpenAI account  
 
 # How to run (our failuir ex)
 ```bash
